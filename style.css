@@ -1,0 +1,177 @@
+
+*{
+    font-family: "Teko", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* navbar */
+.nav1{
+   
+  background-color: rgb(234, 234, 234);
+  height: 60px;
+  overflow: hidden;
+  
+  transition: 1s;  
+}
+.nav1:hover{
+    height: 200px;
+}
+.item li{
+    justify-content: space-between;
+    margin-right: 38px;
+    margin-top: 1%;
+}
+
+.nav2 li{
+    margin-top: 1%;
+}
+
+.pro a{
+    text-decoration: none;
+    position: absolute;
+    right: 10%;
+    top: 70px;
+}
+
+
+/* banner */
+#b1{
+    position: absolute;
+    left: 3%;
+    bottom: 282%;
+} 
+
+#b2{
+    position: absolute;
+    left: 14%;
+    bottom: 282%;
+}
+#banner p{
+    position: absolute;
+    left: 3%;
+    bottom: 343%;
+    font-size: 150%;
+    color: rgb(255, 255, 255);
+    font-style: inherit;
+}
+/* card  section */
+
+ 
+
+.watche img{
+    height: 200px;
+}
+
+#bb{
+margin-top: 111px;
+margin-left: 10px;
+}
+#bb:hover{
+    scale: 1.05;
+}
+
+
+.card{
+    height: 200px;
+    overflow: hidden;
+    border-radius: 3%;
+  
+}
+ .card:hover{
+    height: 400px;
+    scale: 1.10;
+    position: relative;
+} 
+
+.card h4{
+    margin-left:55px ;
+    margin-top: -28px;
+    
+
+}
+.b2{
+    margin-left:179px ;
+    margin-top: -82px;
+    
+}
+
+.p1{
+    justify-content: space-around;
+    
+}
+
+/* section 3 */
+
+.watche1 img{
+    height: 150px;
+    width: 300px;
+}
+.card1{
+    height: 150px;
+    overflow: hidden;
+    border-radius: 3%;
+}
+
+.col img{
+    border: 2px solid rgb(155, 148, 148);
+    border-radius: 7%;
+    width: 250px;
+    
+}
+
+#bb1{
+   margin-left: 98%;
+   margin-top:-6% ;
+}
+#bb1:hover{
+    scale: 1.05;
+}
+.col img:hover{
+    scale: 1.10;
+}
+/* slid 2 */
+
+#s2 h4{
+ margin-top: -17%;
+ margin-right: 78%;
+    
+}
+
+#s2b1{
+    margin-top: 1%;
+    margin-right: 84%;
+}
+#s2b2{
+   margin-top: -6%;
+    margin-right: 60%;
+}
+#s2b3{
+   margin-top: -11%;
+    margin-right: 49%;
+}
+
+/* footer */
+
+footer{
+    background-color: rgb(66, 64, 64);
+}
+footer img{
+    width: 110px;
+    
+}
+
+footer ul{
+    display: flex;
+    margin-left: 37%;
+    
+}
+footer ul li{
+   margin: 2%;
+   margin-top: -3%;
+}
+footer p{
+    margin-top: -2%;
+
+}
